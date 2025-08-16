@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { ArrowRight, Brain, Calendar, Mail, Stethoscope, Users, Zap } from "lucide-react"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -140,11 +141,14 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer border-0 shadow-md bg-card/90 backdrop-blur">
-              <div className="h-48 bg-gradient-to-br from-primary/20 to-accent/20 rounded-t-lg flex items-center justify-center">
-                <img
+              <div className="relative h-48 bg-gradient-to-br from-primary/20 to-accent/20 rounded-t-lg">
+                <Image
                   src="/cardiology-research.png"
                   alt="Cardiology Research"
-                  className="w-full h-full object-cover rounded-t-lg"
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover rounded-t-lg"
+                  priority
                 />
               </div>
               <CardHeader>
@@ -160,11 +164,13 @@ export default function HomePage() {
             </Card>
 
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer border-0 shadow-md bg-card/90 backdrop-blur">
-              <div className="h-48 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-t-lg flex items-center justify-center">
-                <img
+              <div className="relative h-48 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-t-lg">
+                <Image
                   src="/neurology-brain-scan.png"
                   alt="Neurology Research"
-                  className="w-full h-full object-cover rounded-t-lg"
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover rounded-t-lg"
                 />
               </div>
               <CardHeader>
@@ -173,18 +179,20 @@ export default function HomePage() {
                   Predictive Neurodegeneration Intelligence
                 </CardTitle>
                 <CardDescription>
-                  Deep learning architectures achieving temporal cognitive mapping, predicting Alzheimer's pathogenesis
+                  Deep learning architectures achieving temporal cognitive mapping, predicting Alzheimer&apos;s pathogenesis
                   with decade-level precision
                 </CardDescription>
               </CardHeader>
             </Card>
 
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer border-0 shadow-md bg-card/90 backdrop-blur">
-              <div className="h-48 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-t-lg flex items-center justify-center">
-                <img
+              <div className="relative h-48 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-t-lg">
+                <Image
                   src="/oncology-breakthrough.png"
                   alt="Oncology Research"
-                  className="w-full h-full object-cover rounded-t-lg"
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover rounded-t-lg"
                 />
               </div>
               <CardHeader>
