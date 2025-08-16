@@ -37,7 +37,7 @@ export default function HomePage() {
             </Badge>
 
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-white leading-tight drop-shadow-lg">
-              MedAI Nexus
+              Cortex
             </h1>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto font-serif drop-shadow-md">
@@ -229,7 +229,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <h3 className="text-2xl font-serif font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                MedAI Nexus
+                Cortex
               </h3>
               <p className="text-muted-foreground mb-4 max-w-md">
                 Empowering healthcare cognoscenti through neural-augmented medical intelligence and quantum-curated
@@ -259,7 +259,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 MedAI Nexus. All rights reserved.</p>
+            <p>&copy; 2024 Cortex. All rights reserved.</p>
           </div>
         </div>
       </footer>

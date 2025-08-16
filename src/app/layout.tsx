@@ -20,8 +20,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "MedAI Newsletter - AI-Powered Medical Insights",
-  description: "Stay ahead with AI-curated medical newsletters tailored for healthcare professionals",
+  title: "Cortex - AI-Powered Medical Intelligence",
+  description: "AI-powered medical intelligence that transforms research into actionable clinical insights",
   generator: "v0.app",
 }
 
