@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-6 bg-white/20 text-white border-white/30 hover:bg-white/30 backdrop-blur-sm">
-              Neural-Augmented Medical Intelligence
+              AI‑Driven Medical Intelligence
             </Badge>
 
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-white leading-tight drop-shadow-lg">
@@ -60,11 +60,11 @@ export default function HomePage() {
             <div className="flex flex-wrap justify-center gap-4 text-sm text-white/80">
               <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
                 <Users className="w-4 h-4" />
-                <span>50,000+ Cognitive Practitioners</span>
+                <span>50,000+ Clinicians</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
                 <Calendar className="w-4 h-4" />
-                <span>Algorithmic Intelligence Streams</span>
+                <span>Real‑Time Intelligence Streams</span>
               </div>
             </div>
           </div>
@@ -75,11 +75,9 @@ export default function HomePage() {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
-              Why Choose Neural-Augmented Medical Intelligence?
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Why Cortex?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              Advanced AI algorithms analyze medical research to deliver personalized clinical insights.
+              AI analyzes medical research and turns it into clear, specialty‑focused insights.
             </p>
           </div>
 
@@ -89,7 +87,7 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Brain className="w-8 h-8 text-primary" />
                 </div>
-                <CardTitle className="text-xl font-serif">Cognitive Synthesis Engine</CardTitle>
+                <CardTitle className="text-xl font-serif">AI Insight Engine</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base leading-relaxed">
@@ -103,7 +101,7 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Stethoscope className="w-8 h-8 text-accent" />
                 </div>
-                <CardTitle className="text-xl font-serif">Precision-Targeted Epistemic Domains</CardTitle>
+                <CardTitle className="text-xl font-serif">Specialized Domains</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base leading-relaxed">
@@ -117,7 +115,7 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Zap className="w-8 h-8 text-secondary" />
                 </div>
-                <CardTitle className="text-xl font-serif">Temporal Intelligence Streams</CardTitle>
+                <CardTitle className="text-xl font-serif">Real‑Time Updates</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base leading-relaxed">
@@ -133,10 +131,8 @@ export default function HomePage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Latest Cognitive Intelligence Synthesis</h2>
-            <p className="text-lg text-muted-foreground font-serif">
-              Latest medical research insights curated by our AI systems.
-            </p>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Latest Insights</h2>
+            <p className="text-lg text-muted-foreground font-serif">Fresh, AI‑curated research highlights.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -153,13 +149,8 @@ export default function HomePage() {
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2 bg-primary/10 text-primary">Cardiology</Badge>
-                <CardTitle className="group-hover:text-primary transition-colors font-serif">
-                  Quantum-Enhanced Cardiac Intervention Protocols
-                </CardTitle>
-                <CardDescription>
-                  Neural-guided surgical methodologies demonstrating 95% efficacy through machine learning optimization
-                  frameworks
-                </CardDescription>
+                <CardTitle className="group-hover:text-primary transition-colors font-serif">Cardiac Intervention Advances</CardTitle>
+                <CardDescription>Data‑guided methods showing improved cardiac surgery outcomes.</CardDescription>
               </CardHeader>
             </Card>
 
@@ -175,13 +166,8 @@ export default function HomePage() {
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2 bg-accent/10 text-accent">Neurology</Badge>
-                <CardTitle className="group-hover:text-primary transition-colors font-serif">
-                  Predictive Neurodegeneration Intelligence
-                </CardTitle>
-                <CardDescription>
-                  Deep learning architectures achieving temporal cognitive mapping, predicting Alzheimer&apos;s pathogenesis
-                  with decade-level precision
-                </CardDescription>
+                <CardTitle className="group-hover:text-primary transition-colors font-serif">Neurodegeneration Prediction</CardTitle>
+                <CardDescription>Models that forecast Alzheimer&apos;s risk years in advance.</CardDescription>
               </CardHeader>
             </Card>
 
@@ -197,13 +183,8 @@ export default function HomePage() {
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2 bg-secondary/10 text-secondary">Oncology</Badge>
-                <CardTitle className="group-hover:text-primary transition-colors font-serif">
-                  Adaptive Immunotherapeutic Orchestration
-                </CardTitle>
-                <CardDescription>
-                  Personalized therapeutic algorithms demonstrating unprecedented efficacy in advanced-stage malignancy
-                  management protocols
-                </CardDescription>
+                <CardTitle className="group-hover:text-primary transition-colors font-serif">Adaptive Immunotherapy</CardTitle>
+                <CardDescription>Personalized treatment strategies with promising efficacy.</CardDescription>
               </CardHeader>
             </Card>
           </div>
@@ -215,18 +196,15 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-5"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Ascend to the Apex of Medical Cognition</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Get Smarter, Faster</h2>
             <p className="text-lg text-muted-foreground mb-8 font-serif">
-              Transcend conventional medical knowledge boundaries. Synchronize with our neural intelligence network and
-              achieve cognitive supremacy in your specialized domain.
+              Join our network to receive clear, practical updates from the latest medical research.
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-6">
               Initiate Neural Synchronization
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <p className="text-sm text-muted-foreground mt-4">
-              Complimentary cognitive enhancement • Adaptive termination • 50,000+ synchronized practitioners
-            </p>
+            <p className="text-sm text-muted-foreground mt-4">Free to start • Cancel anytime • Trusted by 50,000+ clinicians</p>
           </div>
         </div>
       </section>
@@ -267,7 +245,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 Cortex. All rights reserved.</p>
+            <p>&copy; 2025 Cortex. All rights reserved.</p>
           </div>
         </div>
       </footer>
