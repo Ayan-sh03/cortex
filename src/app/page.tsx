@@ -11,7 +11,7 @@ export default function HomePage() {
       <section
         className="relative overflow-hidden min-h-screen flex items-center hero-bg"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/ghibli-mountains.png')",
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/hero2.jpg')",
         }}
       >
         {/* Floating medical elements */}
