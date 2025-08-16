@@ -36,14 +36,12 @@ export default function HomePage() {
               Neural-Augmented Medical Intelligence
             </Badge>
 
-            <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 text-white leading-tight drop-shadow-lg">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-white leading-tight drop-shadow-lg">
               MedAI Nexus
             </h1>
 
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto font-serif drop-shadow-md">
-              Harness the convergence of artificial intelligence and medical cognition. Our neural-powered epistemic
-              engine synthesizes breakthrough research, delivering hyper-personalized clinical intelligence to elevate
-              your diagnostic acumen and therapeutic mastery.
+            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto font-serif drop-shadow-md">
+              AI-powered medical intelligence that transforms research into actionable clinical insights.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -80,8 +78,7 @@ export default function HomePage() {
               Why Choose Neural-Augmented Medical Intelligence?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-serif">
-              Our quantum-enhanced cognitive algorithms traverse vast medical knowledge graphs, synthesizing emergent
-              insights through deep semantic understanding
+              Advanced AI algorithms analyze medical research to deliver personalized clinical insights.
             </p>
           </div>
 
@@ -95,8 +92,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base leading-relaxed">
-                  Advanced neural architectures orchestrate multi-dimensional knowledge extraction, delivering
-                  hyper-contextualized medical intelligence through sophisticated semantic reasoning frameworks
+                  Advanced AI that extracts medical insights from complex research data with precision.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -110,8 +106,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base leading-relaxed">
-                  Navigate 20+ specialized medical ontologies through our adaptive knowledge architecture, delivering
-                  domain-specific cognitive augmentation for enhanced clinical decision-making paradigms
+                  Access 20+ medical specialties with targeted AI insights for better clinical decisions.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -125,8 +120,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base leading-relaxed">
-                  Experience continuous knowledge flux through our real-time neural monitoring systems, ensuring
-                  perpetual synchronization with emerging medical paradigms and breakthrough discoveries
+                  Real-time updates from the latest medical research and breakthrough discoveries.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -140,7 +134,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Latest Cognitive Intelligence Synthesis</h2>
             <p className="text-lg text-muted-foreground font-serif">
-              Preview the neural-curated insights our cognitive practitioners are absorbing this cycle
+              Latest medical research insights curated by our AI systems.
             </p>
           </div>
 
